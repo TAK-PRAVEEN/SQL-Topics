@@ -63,3 +63,4 @@ GROUP BY customer_id
 HAVING total_amount > 200;
 
 
+
