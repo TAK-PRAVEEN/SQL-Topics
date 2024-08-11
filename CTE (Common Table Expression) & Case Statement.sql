@@ -94,5 +94,5 @@ select * from film;
 select 
 sum(case when rating='g' then 1 else 0 end) as G,
 sum(case when rating='pg' then 1 else 0 end) as PG,
-sum(case when rating='nc17' then 1 else 0 end) as PG
+sum(case when rating='nc-17' then 1 else 0 end) as PG
 from film;
